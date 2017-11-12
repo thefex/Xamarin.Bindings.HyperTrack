@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+
+	-->
+
+  <!-- interface is packaged -->
+  <remove-node path="/api/package[@name='com.hypertrack.lib.internal.common.logging']/class[@name='DeviceLogDatabaseHelper']"/>
+  <remove-node path="/api/package[@name='com.hypertrack.lib.internal.consumer.utils']/class[@name='HTDownloadImageTask']/method[@name='doInBackground' and count(parameter)=1 and parameter[1][@type='java.lang.String...']]"/>
+
+  <remove-node path="/api/package[@name='com.hypertrack.lib.internal.consumer.view.SelectExpectedPlace']/class[@name='PlaceResultAdapter']/method[@name='onBindViewHolder' and count(parameter)=2 and parameter[1][@type='com.hypertrack.lib.internal.consumer.view.SelectExpectedPlace.PlaceResultAdapter.SearchViewHolder'] and parameter[2][@type='int']]"/>
+  <remove-node path="/api/package[@name='com.hypertrack.lib.internal.consumer.view.SelectExpectedPlace']/class[@name='PlaceResultAdapter']/method[@name='onCreateViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.ViewGroup'] and parameter[2][@type='int']]"/>
+
+  <remove-node path="/api/package[@name='com.hypertrack.lib.internal.common.util']/class[@name='UserPreferencesImpl.GsonUTCDateAdapter']/method[@name='serialize' and count(parameter)=3 and parameter[1][@type='java.util.Date'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonSerializationContext']]"/>
+  <remove-node path="/api/package[@name='com.hypertrack.lib.internal.common.util']/class[@name='UserPreferencesImpl.GsonUTCDateAdapter']/method[@name='deserialize' and count(parameter)=3 and parameter[1][@type='com.google.gson.JsonElement'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonDeserializationContext']]"/>
+	
+</metadata>
