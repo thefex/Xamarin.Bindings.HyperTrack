@@ -3,6 +3,7 @@ using Android.Runtime;
 
 namespace Com.Hypertrack.Lib.Internal.Common.Util
 {
+
     public partial class UserPreferencesImpl
     {
         public partial class GsonUTCDateAdapter
@@ -100,5 +101,5 @@ namespace Com.Hypertrack.Lib.Internal.Common.Util
                 }
             }
         }
-    }
+   }
 }

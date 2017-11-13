@@ -1,9 +1,12 @@
 ﻿using System;
 using Android.Runtime;
 using Android.Support.V7.Widget;
+using Android.Views;
 
 namespace Com.Hypertrack.Lib.Internal.Consumer.View.SelectExpectedPlace
 {
+    /*
+    
     public partial class PlaceResultAdapter
     {
         static Delegate cb_onBindViewHolder_Lcom_hypertrack_lib_internal_consumer_view_SelectExpectedPlace_PlaceResultAdapter_SearchViewHolder_I;
@@ -26,7 +29,7 @@ namespace Com.Hypertrack.Lib.Internal.Consumer.View.SelectExpectedPlace
         static IntPtr id_onBindViewHolder_Lcom_hypertrack_lib_internal_consumer_view_SelectExpectedPlace_PlaceResultAdapter_SearchViewHolder_I;
         // Metadata.xml XPath method reference: path="/api/package[@name='com.hypertrack.lib.internal.consumer.view.SelectExpectedPlace']/class[@name='PlaceResultAdapter']/method[@name='onBindViewHolder' and count(parameter)=2 and parameter[1][@type='com.hypertrack.lib.internal.consumer.view.SelectExpectedPlace.PlaceResultAdapter.SearchViewHolder'] and parameter[2][@type='int']]"
         [Register("onBindViewHolder", "(Lcom/hypertrack/lib/internal/consumer/view/SelectExpectedPlace/PlaceResultAdapter$SearchViewHolder;I)V", "GetOnBindViewHolder_Lcom_hypertrack_lib_internal_consumer_view_SelectExpectedPlace_PlaceResultAdapter_SearchViewHolder_IHandler")]
-        public override unsafe void OnBindViewHolder(Android.Support.V7.Widget.RecyclerView.ViewHolder holder, int position)
+        public override unsafe void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
             if (id_onBindViewHolder_Lcom_hypertrack_lib_internal_consumer_view_SelectExpectedPlace_PlaceResultAdapter_SearchViewHolder_I == IntPtr.Zero)
                 id_onBindViewHolder_Lcom_hypertrack_lib_internal_consumer_view_SelectExpectedPlace_PlaceResultAdapter_SearchViewHolder_I = JNIEnv.GetMethodID(class_ref, "onBindViewHolder", "(Lcom/hypertrack/lib/internal/consumer/view/SelectExpectedPlace/PlaceResultAdapter$SearchViewHolder;I)V");
@@ -67,7 +70,7 @@ namespace Com.Hypertrack.Lib.Internal.Consumer.View.SelectExpectedPlace
         static IntPtr id_onCreateViewHolder_Landroid_view_ViewGroup_I;
         // Metadata.xml XPath method reference: path="/api/package[@name='com.hypertrack.lib.internal.consumer.view.SelectExpectedPlace']/class[@name='PlaceResultAdapter']/method[@name='onCreateViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.ViewGroup'] and parameter[2][@type='int']]"
         [Register("onCreateViewHolder", "(Landroid/view/ViewGroup;I)Lcom/hypertrack/lib/internal/consumer/view/SelectExpectedPlace/PlaceResultAdapter$SearchViewHolder;", "GetOnCreateViewHolder_Landroid_view_ViewGroup_IHandler")]
-        public override unsafe RecyclerView.ViewHolder OnCreateViewHolder(global::Android.Views.ViewGroup parent, int viewType)
+        public override unsafe RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
             if (id_onCreateViewHolder_Landroid_view_ViewGroup_I == IntPtr.Zero)
                 id_onCreateViewHolder_Landroid_view_ViewGroup_I = JNIEnv.GetMethodID(class_ref, "onCreateViewHolder", "(Landroid/view/ViewGroup;I)Lcom/hypertrack/lib/internal/consumer/view/SelectExpectedPlace/PlaceResultAdapter$SearchViewHolder;");
@@ -88,5 +91,5 @@ namespace Com.Hypertrack.Lib.Internal.Consumer.View.SelectExpectedPlace
             {
             }
         }
-    }
+    } */
 }

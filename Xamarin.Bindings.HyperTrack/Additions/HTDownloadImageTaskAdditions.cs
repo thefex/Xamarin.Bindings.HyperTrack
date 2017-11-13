@@ -6,11 +6,6 @@ namespace Com.Hypertrack.Lib.Internal.Consumer.Utils
 {
     public partial class HTDownloadImageTask
     {
-
-        public HTDownloadImageTask()
-        {
-            AsyncTask t;
-        }
         static Delegate cb_doInBackground_arrayLjava_lang_String_;
 #pragma warning disable 0169
         static Delegate GetDoInBackground_arrayLjava_lang_String_Handler()
