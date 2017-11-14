@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.Bindings.Paho</id>
+    <version>1.1.2</version>
+    <title>Xamarin.Bindings.Paho</title>
+    <authors>Przemyslaw Raciborski [thefex] for Bindings library</authors>
+    <projectUrl>https://github.com/thefex/Xamarin.Bindings.HyperTrack</projectUrl>
+    <description>
+		Xamarin bindings for Paho (HyperTrack dependency)
+    </description>
+    <tags>xamarin android</tags>
+  </metadata>
+  <files>
+    <file src="..\Xamarin.Bindings.Paho\bin\Release\Xamarin.Bindings.Paho.*" target="lib\MonoAndroid" />
+  </files>
+</package>
+
+
+
+
+
+
+
+
+
+
+
+
+

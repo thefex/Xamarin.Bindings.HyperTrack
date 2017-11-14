@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.Bindings.Volley</id>
+    <version>1.0.0</version>
+    <title>Xamarin.Bindings.Volley</title>
+    <authors>Przemyslaw Raciborski [thefex] for Bindings library</authors>
+    <projectUrl>https://github.com/thefex/Xamarin.Bindings.HyperTrack</projectUrl>
+    <description>
+		Xamarin bindings for Google Volley
+    </description>
+    <tags>xamarin android</tags>
+  </metadata>
+  <files>
+    <file src="..\Xamarin.Bindings.Volley\bin\Release\Xamarin.Bindings.Volley.*" target="lib\MonoAndroid" />
+  </files>
+</package>
+
+
+
+
+
+
+
+
+
+
+
+
+
