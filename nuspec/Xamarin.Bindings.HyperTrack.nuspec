@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Xamarin.Bindings.HyperTrack</id>
-    <version>0.4.25</version>
+    <version>0.4.31-beta1</version>
     <title>Xamarin.Bindings.HyperTrack</title>
     <authors>Przemyslaw Raciborski [thefex] for Bindings library</authors>
     <projectUrl>https://github.com/thefex/Xamarin.Bindings.HyperTrack</projectUrl>
@@ -14,9 +14,7 @@
       <group targetFramework="monoandroid">
           <dependency id="Xamarin.Bindings.Volley" version="1.0.0"/>
           <dependency id="Xamarin.Bindings.SmartScheduler" version="0.0.11"/>
-          <dependency id="Xamarin.Bindings.Paho" version="1.1.2"/>
-          <dependency id="Xamarin.Bindings.Mqttv3" version="1.1.2"/>
-          <dependency id="GoogleGson" version="2.7.0"/>
+	<dependency id="GoogleGson" version="2.7.0"/>
           <dependency id="Xamarin.Android.Support.Design" version="25.3.1"/>
           <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="25.3.1"/>
           <dependency id="Xamarin.Android.Support.v7.CardView" version="25.3.1" />

@@ -145,17 +145,9 @@
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\android-0.4.25-release.aar" />
+    <LibraryProjectZip Include="Jars\android-0.4.31-release.aar" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Xamarin.Bindings.Mqttv3\Xamarin.Bindings.Mqttv3.csproj">
-      <Project>{FD65CC3A-1A51-44FB-890D-4F53B4421251}</Project>
-      <Name>Xamarin.Bindings.Mqttv3</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Xamarin.Bindings.Paho\Xamarin.Bindings.Paho.csproj">
-      <Project>{3B25B709-AAEB-443C-8512-86B7FC16F4F1}</Project>
-      <Name>Xamarin.Bindings.Paho</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Xamarin.Bindings.SmartScheduler\Xamarin.Bindings.SmartScheduler.csproj">
       <Project>{CADF5959-E3DF-434F-9856-CDC13852DBB6}</Project>
       <Name>Xamarin.Bindings.SmartScheduler</Name>
