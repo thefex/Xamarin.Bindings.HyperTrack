@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.Bindings.Sentry</id>
+    <version>1.6.4</version>
+    <title>Xamarin.Bindings.Sentry</title>
+    <authors>Przemyslaw Raciborski [thefex] for Bindings library</authors>
+    <projectUrl>https://github.com/thefex/Xamarin.Bindings.HyperTrack</projectUrl>
+    <description>
+		Xamarin bindings for Sentry (HyperTrack dependency)
+    </description>
+    <tags>xamarin android</tags>
+  </metadata>
+
+  <files>
+    <file src="..\Xamarin.Bindings.Sentry\bin\Release\Xamarin.Bindings.Sentry.*" target="lib\MonoAndroid" />
+  </files>
+</package>
+
+
+
+
+
+
+
+
+
+
+
+
+

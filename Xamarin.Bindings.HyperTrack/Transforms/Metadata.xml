@@ -10,8 +10,9 @@
 	-->
 
   <!-- interface is packaged -->
+    <remove-node path="/api/package[@name='com.hypertrack.lib.internal.common.util']/class[@name='UserPreferencesImpl']"/>
  <remove-node path="/api/package[@name='com.hypertrack.lib.internal.common.logging']/class[@name='DeviceLogDatabaseHelper']"/>
-  <remove-node path="/api/package[@name='com.hypertrack.lib.internal.consumer.utils']/class[@name='HTDownloadImageTask']/method[@name='doInBackground' and count(parameter)=1 and parameter[1][@type='java.lang.String...']]"/>
+  <remove-node path="/api/package[@name='com.hypertrack.lib.internal.consumer.utils']/class[@name='HTDownloadImageTask']"/>
 
 	<!--
   <remove-node path="/api/package[@name='com.hypertrack.lib.internal.consumer.view.SelectExpectedPlace']/class[@name='PlaceResultAdapter']/method[@name='onBindViewHolder' and count(parameter)=2 and parameter[1][@type='com.hypertrack.lib.internal.consumer.view.SelectExpectedPlace.PlaceResultAdapter.SearchViewHolder'] and parameter[2][@type='int']]"/>

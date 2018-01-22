@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.Bindings.Hyperlog</id>
+    <version>0.0.7</version>
+    <title>Xamarin.Bindings.Hyperlog</title>
+    <authors>Przemyslaw Raciborski [thefex] for Bindings library</authors>
+    <projectUrl>https://github.com/thefex/Xamarin.Bindings.HyperTrack</projectUrl>
+    <description>
+		Xamarin bindings for Hyperlog
+    </description>
+    <tags>xamarin android</tags>
+    <dependencies>
+     <group targetFramework="monoandroid">
+          <dependency id="Xamarin.Bindings.Volley" version="1.0.0"/>
+          <dependency id="GoogleGson" version="2.8.0"/>
+          <dependency id="Xamarin.Android.Support.v7.AppCompat" version="26.1.0.1"/> 
+        </group>
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="..\Xamarin.Bindings.Hyperlog\bin\Release\Xamarin.Bindings.Hyperlog.*" target="lib\MonoAndroid" />
+  </files>
+</package>
+
+
+
+
+
+
+
+
+
+
+
+
+

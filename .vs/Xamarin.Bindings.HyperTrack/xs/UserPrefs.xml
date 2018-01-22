@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{7EB12FEE-3F4F-4357-9AFB-766E474CB685}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestProject/MainActivity.cs">
+    <Files>
+      <File FileName="nuspec/Xamarin.Bindings.HyperTrack.nuspec" Line="5" Column="28" />
+      <File FileName="TestProject/MainActivity.cs" Line="108" Column="1" />
+      <File FileName="Xamarin.Bindings.HyperTrack/Transforms/Metadata.xml" Line="19" Column="1" />
+      <File FileName="Xamarin.Bindings.HyperTrack/Transforms/EnumMethods.xml" Line="1" Column="1" />
+      <File FileName="Xamarin.Bindings.HyperTrack/obj/Debug/generated/src/Com.Hypertrack.Lib.Callbacks.HyperTrackCallback.cs" Line="139" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TestProject PreferredExecutionTarget="Android.00" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Xamarin.Bindings.HyperTrack PreferredExecutionTarget="Android.00" />
+</Properties>

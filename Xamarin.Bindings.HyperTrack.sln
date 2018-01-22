@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Bindings.Volley", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Bindings.SmartScheduler", "Xamarin.Bindings.SmartScheduler\Xamarin.Bindings.SmartScheduler.csproj", "{CADF5959-E3DF-434F-9856-CDC13852DBB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Bindings.Hyperlog", "Xamarin.Bindings.Hyperlog\Xamarin.Bindings.Hyperlog.csproj", "{03BBF352-B7EC-474E-85A3-F673BF5F3D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Bindings.Sentry", "Xamarin.Bindings.Sentry\Xamarin.Bindings.Sentry.csproj", "{45CF1875-49EA-4B3A-8BB2-3A595E8EF2AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +35,13 @@ Global
 		{CADF5959-E3DF-434F-9856-CDC13852DBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CADF5959-E3DF-434F-9856-CDC13852DBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CADF5959-E3DF-434F-9856-CDC13852DBB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03BBF352-B7EC-474E-85A3-F673BF5F3D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BBF352-B7EC-474E-85A3-F673BF5F3D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BBF352-B7EC-474E-85A3-F673BF5F3D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BBF352-B7EC-474E-85A3-F673BF5F3D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CF1875-49EA-4B3A-8BB2-3A595E8EF2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CF1875-49EA-4B3A-8BB2-3A595E8EF2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CF1875-49EA-4B3A-8BB2-3A595E8EF2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CF1875-49EA-4B3A-8BB2-3A595E8EF2AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

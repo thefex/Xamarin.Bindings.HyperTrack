@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+    <remove-node path="/api/package[@name='java.time.temporal.Temporal']/class[@name='Temporal']"/>
+    <remove-node path="/api/package[@name='io.sentry.marshaller.json']/class[@name='JsonMarshaller']"/>
+    <remove-node path="/api/package[@name='io.sentry.event.interfaces']/class[@name='DebugMetaInterface']/field[@name='DEBUG_META_INTERFACE']"/>
+    <remove-node path="/api/package[@name='io.sentry.event.interfaces']/class[@name='MessageInterface']/field[@name='MESSAGE_INTERFACE']"/>
+    <remove-node path="/api/package[@name='io.sentry.event.interfaces']/class[@name='ExceptionInterface']/field[@name='EXCEPTION_INTERFACE']"/>
+    <remove-node path="/api/package[@name='io.sentry.event.interfaces']/class[@name='HttpInterface']/field[@name='HTTP_INTERFACE']"/>
+    <remove-node path="/api/package[@name='io.sentry.event.interfaces']/class[@name='UserInterface']/field[@name='USER_INTERFACE']"/>
+</metadata>
