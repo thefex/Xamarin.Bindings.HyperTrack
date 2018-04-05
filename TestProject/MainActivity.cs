@@ -28,16 +28,25 @@ namespace TestProject
             // and attach an event to it
             Button button = FindViewById<Button>(Resource.Id.myButton);
 
-            HyperTrack.Initialize(this, "KEy");
-            testt = new HyperTrackCallbackListener();
+            HyperTrack.Initialize(this, "pk_test_0b503315324d1fc8d6cc3b099536cff93c2e29f9");
+              
+            button.Click += async delegate {
+                HyperTrackCallbackTest callbackTest = new HyperTrackCallbackTest();
+                HyperTrack.GetOrCreateUser(new UserParams()
+                                           .SetName("test12345")
+                                           .SetLookupId("222"), callbackTest);
 
-
-            button.Click += delegate { button.Text = $"{count++} clicks!"; };
+                var response = await callbackTest.task.Task;
+                HyperTrack.UserId =  Android.Runtime.Extensions.JavaCast<User>(response.ResponseObject).Id;
+                HyperTrack.StartTracking(); 
+            };
         }
     }
  
 
     public class HyperTrackCallbackTest : HyperTrackCallback{
+        public readonly TaskCompletionSource<SuccessResponse> task = new TaskCompletionSource<SuccessResponse>();
+
         public HyperTrackCallbackTest()
         {
 
@@ -55,9 +64,10 @@ namespace TestProject
 
         public override void OnSuccess(SuccessResponse p0)
         {
-            throw new NotImplementedException();
+            task.SetResult(p0);
         }
-    }
+
+     }
 
     class Test : Java.Lang.Object {
         

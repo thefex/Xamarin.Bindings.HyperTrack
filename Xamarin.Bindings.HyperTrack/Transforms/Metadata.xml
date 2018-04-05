@@ -20,4 +20,41 @@
   -->
   <remove-node path="/api/package[@name='com.hypertrack.lib.internal.common.util']/class[@name='UserPreferencesImpl.GsonUTCDateAdapter']/method[@name='serialize' and count(parameter)=3 and parameter[1][@type='java.util.Date'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonSerializationContext']]"/>
   <remove-node path="/api/package[@name='com.hypertrack.lib.internal.common.util']/class[@name='UserPreferencesImpl.GsonUTCDateAdapter']/method[@name='deserialize' and count(parameter)=3 and parameter[1][@type='com.google.gson.JsonElement'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonDeserializationContext']]"/>
+
+    <attr path="/api/package[@name='com.hypertrack.lib.internal.transmitter.controls.collection']/class[@name='CollectionActionDispatcher']/method[@name='fire' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object</attr>
+
+    <attr path="/api/package[@name='com.hypertrack.lib.internal.transmitter.controls.transmission']/class[@name='TransmissionActionDispatcher']/method[@name='fire' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object</attr>
+
+    <attr path="/api/package[@name='com.hypertrack.lib.internal.transmitter.controls.ruleengine.operators']/class[@name='And']/method[@name='copy' and count(parameter)=0]"
+          name="managedReturn">
+        Com.Hypertrack.Lib.Internal.Transmitter.Controls.Ruleengine.Operation.Operation
+    </attr>
+
+    <attr path="/api/package[@name='com.hypertrack.lib.internal.transmitter.controls.ruleengine.operators']/class[@name='Equals']/method[@name='copy' and count(parameter)=0]"
+          name="managedReturn">
+        Com.Hypertrack.Lib.Internal.Transmitter.Controls.Ruleengine.Operation.Operation
+    </attr>
+    
+    <attr path="/api/package[@name='com.hypertrack.lib.internal.transmitter.controls.ruleengine.operators']/class[@name='GTE']/method[@name='copy' and count(parameter)=0]"
+          name="managedReturn">
+        Com.Hypertrack.Lib.Internal.Transmitter.Controls.Ruleengine.Operation.Operation
+    </attr>
+
+    <attr path="/api/package[@name='com.hypertrack.lib.internal.transmitter.controls.ruleengine.operators']/class[@name='LTE']/method[@name='copy' and count(parameter)=0]"
+          name="managedReturn">
+        Com.Hypertrack.Lib.Internal.Transmitter.Controls.Ruleengine.Operation.Operation
+    </attr>
+
+    <attr path="/api/package[@name='com.hypertrack.lib.internal.transmitter.controls.ruleengine.operators']/class[@name='Not']/method[@name='copy' and count(parameter)=0]"
+          name="managedReturn">
+        Com.Hypertrack.Lib.Internal.Transmitter.Controls.Ruleengine.Operation.Operation
+    </attr>
+
+    <attr path="/api/package[@name='com.hypertrack.lib.internal.transmitter.controls.ruleengine.operators']/class[@name='OR']/method[@name='copy' and count(parameter)=0]"
+          name="managedReturn">
+        Com.Hypertrack.Lib.Internal.Transmitter.Controls.Ruleengine.Operation.Operation
+    </attr>
 </metadata>
+

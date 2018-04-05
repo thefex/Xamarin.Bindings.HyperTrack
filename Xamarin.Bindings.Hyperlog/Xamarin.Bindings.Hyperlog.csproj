@@ -95,7 +95,7 @@
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\hyperlog-0.0.7.aar" />
+    <LibraryProjectZip Include="Jars\hyperlog-0.0.9.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xamarin.Bindings.Volley\Xamarin.Bindings.Volley.csproj">

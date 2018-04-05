@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{7EB12FEE-3F4F-4357-9AFB-766E474CB685}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestProject/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="nuspec/Xamarin.Bindings.HyperTrack.nuspec">
     <Files>
-      <File FileName="nuspec/Xamarin.Bindings.HyperTrack.nuspec" Line="5" Column="28" />
-      <File FileName="TestProject/MainActivity.cs" Line="108" Column="1" />
-      <File FileName="Xamarin.Bindings.HyperTrack/Transforms/Metadata.xml" Line="19" Column="1" />
-      <File FileName="Xamarin.Bindings.HyperTrack/Transforms/EnumMethods.xml" Line="1" Column="1" />
-      <File FileName="Xamarin.Bindings.HyperTrack/obj/Debug/generated/src/Com.Hypertrack.Lib.Callbacks.HyperTrackCallback.cs" Line="139" Column="1" />
+      <File FileName="nuspec/Xamarin.Bindings.HyperTrack.nuspec" Line="19" Column="75" />
+      <File FileName="nuspec/Xamarin.Bindings.Hyperlog.nuspec" Line="21" Column="3" />
+      <File FileName="Xamarin.Bindings.Hyperlog/packages.config" Line="1" Column="1" />
+      <File FileName="Xamarin.Bindings.HyperTrack/packages.config" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/przemekraciborski/git/Xamarin.Bindings.HyperTrack/Xamarin.Bindings.HyperTrack/TestProject/MainActivity.cs" relfile="TestProject/MainActivity.cs" line="41" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.TestProject PreferredExecutionTarget="Android.00" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
