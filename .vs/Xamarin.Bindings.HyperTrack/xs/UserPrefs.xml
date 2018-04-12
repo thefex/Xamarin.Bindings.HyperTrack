@@ -1,11 +1,45 @@
-﻿<Properties StartupConfiguration="{7EB12FEE-3F4F-4357-9AFB-766E474CB685}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="nuspec/Xamarin.Bindings.HyperTrack.nuspec">
+﻿<Properties StartupConfiguration="{91781666-89D8-49F3-AE1E-93B5D686B1AE}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestProject/obj/Release/lp/19/jl/res/layout/bottom_card_view_item.xml">
     <Files>
-      <File FileName="nuspec/Xamarin.Bindings.HyperTrack.nuspec" Line="19" Column="75" />
-      <File FileName="nuspec/Xamarin.Bindings.Hyperlog.nuspec" Line="21" Column="3" />
-      <File FileName="Xamarin.Bindings.Hyperlog/packages.config" Line="1" Column="1" />
-      <File FileName="Xamarin.Bindings.HyperTrack/packages.config" Line="1" Column="1" />
+      <File FileName="Xamarin.Bindings.SmartScheduler/Transforms/Metadata.xml" Line="1" Column="1" />
+      <File FileName="Xamarin.Bindings.HyperTrack/Transforms/Metadata.xml" Line="85" Column="261" />
+      <File FileName="Xamarin.Bindings.HyperTrack/obj/Debug/generated/src/Com.Hypertrack.Lib.Placeline.PlacelineSummaryAdapter.cs" Line="9" Column="23" />
+      <File FileName="Xamarin.Bindings.HyperTrack/obj/Debug/generated/src/Com.Hypertrack.Lib.Placeline.PlacelinePresenter.cs" Line="108" Column="250" />
+      <File FileName="Xamarin.Bindings.HyperTrack/obj/Debug/generated/src/Com.Hypertrack.Lib.Placeline.PlacelineAdapter.cs" Line="17" Column="10" />
+      <File FileName="Xamarin.Bindings.HyperTrack/obj/Debug/generated/src/Com.Hypertrack.Lib.Placeline.PlacelineActivitySummaryPresenter.cs" Line="108" Column="280" />
+      <File FileName="nuspec/Xamarin.Bindings.HyperTrack.nuspec" Line="31" Column="19" />
+      <File FileName="nuspec/Xamarin.Bindings.Hyperlog.nuspec" Line="1" Column="1" />
+      <File FileName="nuspec/Xamarin.Bindings.SmartScheduler.nuspec" Line="15" Column="80" />
+      <File FileName="Xamarin.Bindings.SmartScheduler/packages.config" Line="19" Column="66" />
+      <File FileName="nuspec/Xamarin.Bindings.Volley.nuspec" Line="1" Column="1" />
+      <File FileName="nuspec/Xamarin.Bindings.Sentry.nuspec" Line="1" Column="1" />
+      <File FileName="TestProject/obj/Release/lp/19/jl/res/layout/bottom_card_view_item.xml" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="Xamarin.Bindings.HyperTrack" expanded="True">
+            <Node name="nuspec" expanded="True" />
+            <Node name="Xamarin.Bindings.Hyperlog" expanded="True" />
+            <Node name="Xamarin.Bindings.HyperTrack" expanded="True" selected="True">
+              <Node name="Additions" expanded="True" />
+              <Node name="bin" expanded="True" />
+              <Node name="Jars" expanded="True" />
+              <Node name="obj" expanded="True">
+                <Node name="Debug" expanded="True" />
+                <Node name="Release" expanded="True" />
+              </Node>
+              <Node name="Transforms" expanded="True" />
+            </Node>
+            <Node name="Xamarin.Bindings.SmartScheduler" expanded="True">
+              <Node name="Jars" expanded="True" />
+              <Node name="Transforms" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

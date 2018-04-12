@@ -56,5 +56,37 @@
           name="managedReturn">
         Com.Hypertrack.Lib.Internal.Transmitter.Controls.Ruleengine.Operation.Operation
     </attr>
+
+    <attr path="/api/package[@name='com.hypertrack.lib.placeline']/class[@name='PlacelineActivitySummaryPresenter']/method[@name='attach' and count(parameter)=1 and parameter[1][@type='com.hypertrack.lib.placeline.IPlacelineActivitySummaryView']]/parameter[1]"
+          name="managedType">
+        Java.Lang.Object
+    </attr>
+
+    <attr path="/api/package[@name='com.hypertrack.lib.placeline']/class[@name='PlacelinePresenter']/method[@name='attach' and count(parameter)=1 and parameter[1][@type='com.hypertrack.lib.placeline.IPlacelineView']]/parameter[1]"
+          name="managedType">
+        Java.Lang.Object
+    </attr>
+
+    <attr  path="/api/package[@name='com.hypertrack.lib.placeline']/class[@name='PlacelineSummaryAdapter']/method[@name='onCreateViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.ViewGroup'] and parameter[2][@type='int']]"
+           name="managedReturn">
+        Android.Support.V7.Widget.RecyclerView.ViewHolder
+    </attr>
+
+    <attr path="/api/package[@name='com.hypertrack.lib.placeline']/class[@name='PlacelineSummaryAdapter']/method[@name='onBindViewHolder' and count(parameter)=2 and parameter[1][@type='com.hypertrack.lib.placeline.PlacelineSummaryAdapter.SummaryItemViewHolder'] and parameter[2][@type='int']]/parameter[1]"
+          name="type">
+        Android.Support.V7.Widget.RecyclerView.ViewHolder
+    </attr>
+
+    <attr path="/api/package[@name='com.hypertrack.lib.placeline']/class[@name='PlacelinePresenter']/method[@name='attach' and count(parameter)=1 and parameter[1][@type='com.hypertrack.lib.placeline.IPlacelineView']]/parameter[1]"
+          name="type">
+        Java.Lang.Object
+    </attr>
+
+    <attr  path="/api/package[@name='com.hypertrack.lib.placeline']/class[@name='PlacelineActivitySummaryPresenter']/method[@name='attach' and count(parameter)=1 and parameter[1][@type='com.hypertrack.lib.placeline.IPlacelineActivitySummaryView']]/parameter[1]"
+           name="type">
+        Java.Lang.Object
+    </attr>
+    
+    <remove-node path="/api/package[@name='com.hypertrack.lib.placeline']/class[@name='PlacelineAdapter']"/>
 </metadata>
 

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Xamarin.Bindings.SmartScheduler</id>
-    <version>0.0.11</version>
+    <version>0.0.12</version>
     <title>Xamarin.Bindings.SmartScheduler</title>
     <authors>Przemyslaw Raciborski [thefex] for Bindings library</authors>
     <projectUrl>https://github.com/thefex/Xamarin.Bindings.HyperTrack</projectUrl>
@@ -12,13 +12,13 @@
     <tags>xamarin android</tags>
     <dependencies>
       <group targetFramework="monoandroid">
-          <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.3.1"/>
-          <dependency id="Xamarin.GooglePlayServices.Gcm" version="42.1021.1"/>
+          <dependency id="Xamarin.Android.Support.v7.AppCompat" version="27.0.2"/>
+          <dependency id="Xamarin.GooglePlayServices.Gcm" version="60.1201.0"/>
         </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="..\Xamarin.Bindings.SmartScheduler\bin\Release\Xamarin.Bindings.SmartScheduler.*" target="lib\MonoAndroid" />
+    <file src="../Xamarin.Bindings.SmartScheduler/bin/Release/Xamarin.Bindings.SmartScheduler.*" target="lib\MonoAndroid" />
   </files>
 </package>
 
