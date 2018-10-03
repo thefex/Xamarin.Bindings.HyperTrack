@@ -11,7 +11,7 @@
     </description>
     <tags>xamarin android</tags>
      <dependencies>
-      <group targetFramework="xamarinios10">
+      <group targetFramework="Xamarin.iOS10">
           <dependency id="Xamarin.Swift4" version="4.0.0.0" />
           <dependency id="Xamarin.Swift4.Core" version="4.1.2" />
           <dependency id="Xamarin.Swift4.CoreFoundation" version="4.1.2"  />
@@ -31,7 +31,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\iOS\Xamarin.Bindings.HyperTrack.iOS\bin\Release\Xamarin.Bindings.HyperTrack.iOS.*" target="lib\MonoAndroid" />
+    <file src="..\iOS\Xamarin.Bindings.HyperTrack.iOS\bin\Release\Xamarin.Bindings.HyperTrack.iOS.*" target="lib\Xamarin.iOS10" />
   </files>
 </package>
 
