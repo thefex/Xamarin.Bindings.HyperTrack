@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Xamarin.Bindings.HyperTrack.iOS</id>
-    <version>0.7.29</version>
+    <version>0.7.29.1</version>
     <title>Xamarin.Bindings.HyperTrack</title>
     <authors>Przemyslaw Raciborski [thefex] (@ InsaneLab.com) for Bindings library</authors>
     <projectUrl>https://github.com/thefex/Xamarin.Bindings.HyperTrack</projectUrl>
