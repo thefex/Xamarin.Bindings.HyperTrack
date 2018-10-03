@@ -4,10 +4,11 @@ Done by Przemysław Raciborski [thefex] @ <a href="https://www.InsaneLab.com">In
 
 
 Xamarin.Bindings.HyperTrack (Android) verison 0.7.39-prerelase1 is available on Nuget. (prerelease because Google Play Services 15.0.1 is not on stable at nuget yet)
-Xamarin.Bindings.HyperTrack.iOS (iOS) version 0.7.29 is available on Nuget.
+
+Xamarin.Bindings.HyperTrack.iOS (iOS) version 0.7.29.1 is available on Nuget.
  
 # Installation Guide - iOS Troubleshooting
-Install-Package Xamarin.Bindings.HyperTrack -Version 0.7.29
+Install-Package Xamarin.Bindings.HyperTrack -Version 0.7.29.1
 
 If you plan to publish your app to AppStore you have to add SwiftSupport folder to your IPA.
 App Store requires Swift libraries inside IPA to validate your app. Use this scripts: https://github.com/bq/ipa-packager
