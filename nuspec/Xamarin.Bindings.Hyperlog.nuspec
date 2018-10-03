@@ -16,11 +16,11 @@
           <dependency id="GoogleGson" version="2.8.0"/>
           <dependency id="Xamarin.Android.Support.v7.AppCompat" version="26.1.0.1"/> 
         </group>
-    </dependencies>
+    </dependencies> 
   </metadata>
 
   <files>
-    <file src="..\Xamarin.Bindings.Hyperlog\bin\Release\Xamarin.Bindings.Hyperlog.*" target="lib\MonoAndroid" />
+    <file src="..\Droid\Dependencies\Xamarin.Bindings.Hyperlog\bin\Release\Xamarin.Bindings.Hyperlog.*" target="lib\MonoAndroid" />
   </files>
 </package>
 

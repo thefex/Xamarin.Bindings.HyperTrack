@@ -18,7 +18,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="../Xamarin.Bindings.SmartScheduler/bin/Release/Xamarin.Bindings.SmartScheduler.*" target="lib\MonoAndroid" />
+    <file src="..\Droid\Dependencies\Xamarin.Bindings.SmartScheduler/bin/Release/Xamarin.Bindings.SmartScheduler.*" target="lib\MonoAndroid" />
   </files>
 </package>
 

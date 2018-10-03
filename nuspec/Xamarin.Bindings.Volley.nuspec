@@ -12,7 +12,7 @@
     <tags>xamarin android</tags>
   </metadata>
   <files>
-    <file src="..\Xamarin.Bindings.Volley\bin\Release\Xamarin.Bindings.Volley.*" target="lib\MonoAndroid" />
+    <file src="..\Droid\Dependencies\Xamarin.Bindings.Volley\bin\Release\Xamarin.Bindings.Volley.*" target="lib\MonoAndroid" />
   </files>
 </package>
 

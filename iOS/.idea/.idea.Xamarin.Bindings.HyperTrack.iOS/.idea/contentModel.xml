@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="testetest" t="IncludeRecursive">
+        <e p="AppDelegate.cs" t="Include" />
+        <e p="Assets.xcassets" t="Include">
+          <e p="AppIcon.appiconset" t="Include">
+            <e p="Contents.json" t="Include" />
+          </e>
+          <e p="Contents.json" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entitlements.plist" t="Include" />
+        <e p="Info.plist" t="Include" />
+        <e p="LaunchScreen.storyboard" t="Include" />
+        <e p="Main.cs" t="Include" />
+        <e p="Main.storyboard" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Resources" t="Include" />
+        <e p="testetest.csproj" t="IncludeRecursive" />
+        <e p="ViewController.cs" t="Include" />
+        <e p="ViewController.designer.cs" t="Include" />
+      </e>
+      <e p="Xamarin.Bindings.HyperTrack.iOS" t="IncludeRecursive">
+        <e p="ApiDefinitions.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="ios" t="Include">
+              <e p="ObjCRuntime" t="Include">
+                <e p="Libraries.g.cs" t="Include" />
+                <e p="Messaging.g.cs" t="Include" />
+                <e p="Trampolines.g.cs" t="Include" />
+              </e>
+              <e p="XamarinBindingsHyperTrack" t="Include">
+                <e p="Constants.g.cs" t="Include" />
+                <e p="HTAction.g.cs" t="Include" />
+                <e p="HTActionInfo.g.cs" t="Include" />
+                <e p="HTActionParams.g.cs" t="Include" />
+                <e p="HTActionParams_HyperTrack_Swift_376.g.cs" t="Include" />
+                <e p="HTActivity.g.cs" t="Include" />
+                <e p="HTActivitySummaryUseCase.g.cs" t="Include" />
+                <e p="HTActivitySummaryUseCase_HyperTrack_Swift_445.g.cs" t="Include" />
+                <e p="HTActivitySummaryUseCaseDelegate.g.cs" t="Include" />
+                <e p="HTAnnotationData.g.cs" t="Include" />
+                <e p="HTAppleMapsProvider.g.cs" t="Include" />
+                <e p="HTAppleMapsProvider_HyperTrack_Swift_512.g.cs" t="Include" />
+                <e p="HTAppleMapsProvider_HyperTrack_Swift_523.g.cs" t="Include" />
+                <e p="HTAppleMapsProvider_HyperTrack_Swift_555.g.cs" t="Include" />
+                <e p="HTAuxillaryFlowDelegate.g.cs" t="Include" />
+                <e p="HTBaseTrackingUseCase.g.cs" t="Include" />
+                <e p="HTBaseTrackingViewModel.g.cs" t="Include" />
+                <e p="HTBaseTrackingViewModelProtocol.g.cs" t="Include" />
+                <e p="HTBaseUseCase.g.cs" t="Include" />
+                <e p="HTBaseUseCaseDelegate.g.cs" t="Include" />
+                <e p="HTBaseView.g.cs" t="Include" />
+                <e p="HTBaseViewModelProtocol.g.cs" t="Include" />
+                <e p="HTBasicComponentProtocol.g.cs" t="Include" />
+                <e p="HTBottomViewActionData.g.cs" t="Include" />
+                <e p="HTBottomViewContainer.g.cs" t="Include" />
+                <e p="HTBottomViewUseCaseDelegate.g.cs" t="Include" />
+                <e p="HTButton.g.cs" t="Include" />
+                <e p="HTCalendarDelegate.g.cs" t="Include" />
+                <e p="HTCalendarProvider.g.cs" t="Include" />
+                <e p="HTCalendarProviderProtocol.g.cs" t="Include" />
+                <e p="HTCallout.g.cs" t="Include" />
+                <e p="HTCalloutView.g.cs" t="Include" />
+                <e p="HTColorProviderProtocol.g.cs" t="Include" />
+                <e p="HTComponentProtocol.g.cs" t="Include" />
+                <e p="HTDateSwitcherViewDelegate.g.cs" t="Include" />
+                <e p="HTDebouncer.g.cs" t="Include" />
+                <e p="HTError.g.cs" t="Include" />
+                <e p="HTEventsDelegate.g.cs" t="Include" />
+                <e p="HTFontProviderProtocol.g.cs" t="Include" />
+                <e p="HTGeoJSONLocation.g.cs" t="Include" />
+                <e p="HTHealth.g.cs" t="Include" />
+                <e p="HTLabel.g.cs" t="Include" />
+                <e p="HTLayerProviderProtocol.g.cs" t="Include" />
+                <e p="HTLiveTrackingStackViewProviderProtocol.g.cs" t="Include" />
+                <e p="HTLiveTrackingUseCase.g.cs" t="Include" />
+                <e p="HTLiveTrackingUseCase_HyperTrack_Swift_952.g.cs" t="Include" />
+                <e p="HTLiveTrackingUseCase_HyperTrack_Swift_957.g.cs" t="Include" />
+                <e p="HTLiveTrackingUseCase_HyperTrack_Swift_962.g.cs" t="Include" />
+                <e p="HTLiveTrackingUseCase_HyperTrack_Swift_973.g.cs" t="Include" />
+                <e p="HTLiveTrackingUseCase_HyperTrack_Swift_984.g.cs" t="Include" />
+                <e p="HTLiveTrackingUseCaseDelegate.g.cs" t="Include" />
+                <e p="HTLiveTrackingUseCaseViewModel.g.cs" t="Include" />
+                <e p="HTLiveTrackingUseCaseViewModelProtocol.g.cs" t="Include" />
+                <e p="HTLocation.g.cs" t="Include" />
+                <e p="HTLocationCoordinate.g.cs" t="Include" />
+                <e p="HTLocationSearchProvider.g.cs" t="Include" />
+                <e p="HTLocationSearchProvider_HyperTrack_Swift_1072.g.cs" t="Include" />
+                <e p="HTLocationSearchProvider_HyperTrack_Swift_1080.g.cs" t="Include" />
+                <e p="HTLocationSearchProvider_HyperTrack_Swift_1087.g.cs" t="Include" />
+                <e p="HTLocationUpdatesDelegate.g.cs" t="Include" />
+                <e p="HTLogger.g.cs" t="Include" />
+                <e p="HTMapContainer.g.cs" t="Include" />
+                <e p="HTMapContainer_HyperTrack_Swift_1133.g.cs" t="Include" />
+                <e p="HTMapContainer_HyperTrack_Swift_1157.g.cs" t="Include" />
+                <e p="HTMapCustomizationDelegate.g.cs" t="Include" />
+                <e p="HTMapData.g.cs" t="Include" />
+                <e p="HTMapsProviderProtocol.g.cs" t="Include" />
+                <e p="HTMapUseCaseDelegate.g.cs" t="Include" />
+                <e p="HTMapUtils.g.cs" t="Include" />
+                <e p="HTMapViewDelegate.g.cs" t="Include" />
+                <e p="HTMapViewUpdatesDelegate.g.cs" t="Include" />
+                <e p="HTMapViewUseCase.g.cs" t="Include" />
+                <e p="HTMarkerContentView.g.cs" t="Include" />
+                <e p="HTMarkerImagesProviderProtocol.g.cs" t="Include" />
+                <e p="HTMockLocationParams.g.cs" t="Include" />
+                <e p="HTOrderTrackingBottomCard.g.cs" t="Include" />
+                <e p="HTOrderTrackingStackViewProviderProtocol.g.cs" t="Include" />
+                <e p="HTOrderTrackingUseCase.g.cs" t="Include" />
+                <e p="HTOrderTrackingUseCase_HyperTrack_Swift_1298.g.cs" t="Include" />
+                <e p="HTOrderTrackingUseCase_HyperTrack_Swift_1303.g.cs" t="Include" />
+                <e p="HTOrderTrackingUseCaseDelegate.g.cs" t="Include" />
+                <e p="HTOrderTrackingUseCaseViewModel.g.cs" t="Include" />
+                <e p="HTOrderTrackingUseCaseViewModelProtocol.g.cs" t="Include" />
+                <e p="HTPaddingProviderProtocol.g.cs" t="Include" />
+                <e p="HTPlace.g.cs" t="Include" />
+                <e p="HTPlaceBuilder.g.cs" t="Include" />
+                <e p="HTPlaceline.g.cs" t="Include" />
+                <e p="HTPlaceLineUseCase.g.cs" t="Include" />
+                <e p="HTPlaceLineUseCase_HyperTrack_Swift_1416.g.cs" t="Include" />
+                <e p="HTPlaceLineUseCase_HyperTrack_Swift_1421.g.cs" t="Include" />
+                <e p="HTPlaceLineUseCase_HyperTrack_Swift_1426.g.cs" t="Include" />
+                <e p="HTPlaceLineUseCase_HyperTrack_Swift_1432.g.cs" t="Include" />
+                <e p="HTPlaceLineUseCaseDelegate.g.cs" t="Include" />
+                <e p="HTPlaceSelectionDelegate.g.cs" t="Include" />
+                <e p="HTPlaceSelectionUseCase.g.cs" t="Include" />
+                <e p="HTPlaceSelectionUseCase_HyperTrack_Swift_1460.g.cs" t="Include" />
+                <e p="HTPlaceSelectionUseCase_HyperTrack_Swift_1465.g.cs" t="Include" />
+                <e p="HTPlaceSelectionUseCase_HyperTrack_Swift_1476.g.cs" t="Include" />
+                <e p="HTPolylineData.g.cs" t="Include" />
+                <e p="HTPrimaryActionIntDelegate.g.cs" t="Include" />
+                <e p="HTProvider.g.cs" t="Include" />
+                <e p="HTReusableStackView.g.cs" t="Include" />
+                <e p="HTReusableStackViewDataSource.g.cs" t="Include" />
+                <e p="HTReusableStackViewDelegate.g.cs" t="Include" />
+                <e p="HTSDKActivity.g.cs" t="Include" />
+                <e p="HTSDKHealth.g.cs" t="Include" />
+                <e p="HTSegment.g.cs" t="Include" />
+                <e p="HTShareEtaUseCaseViewModel.g.cs" t="Include" />
+                <e p="HTShareEtaViewModelProtocol.g.cs" t="Include" />
+                <e p="HTStackViewItem.g.cs" t="Include" />
+                <e p="HTStyleConfig.g.cs" t="Include" />
+                <e p="HTStyleProviderProtocol.g.cs" t="Include" />
+                <e p="HTSwipeableProtocol.g.cs" t="Include" />
+                <e p="HTTimeAwarePolyline.g.cs" t="Include" />
+                <e p="HTTrackAction.g.cs" t="Include" />
+                <e p="HTTrackingCustomizationUseCaseDelegate.g.cs" t="Include" />
+                <e p="HTTrackingViewProviderProtocol.g.cs" t="Include" />
+                <e p="HTTrackResponse.g.cs" t="Include" />
+                <e p="HTTrackWithTypeData.g.cs" t="Include" />
+                <e p="HTUseCaseBackNavigationProtocol.g.cs" t="Include" />
+                <e p="HTUseCaseNavigationDelegate.g.cs" t="Include" />
+                <e p="HTUser.g.cs" t="Include" />
+                <e p="HTUserInfoView.g.cs" t="Include" />
+                <e p="HTUserTrackingBottomCard.g.cs" t="Include" />
+                <e p="HyperTrack.g.cs" t="Include" />
+                <e p="HyperTrackEvent.g.cs" t="Include" />
+                <e p="LiveData.g.cs" t="Include" />
+                <e p="LocationService.g.cs" t="Include" />
+                <e p="LocationService_HyperTrack_Swift_2046.g.cs" t="Include" />
+                <e p="LocationService_HyperTrack_Swift_2054.g.cs" t="Include" />
+                <e p="OrderData.g.cs" t="Include" />
+                <e p="PolylineUtils.g.cs" t="Include" />
+                <e p="UIFont_HyperTrack_Swift_2075.g.cs" t="Include" />
+                <e p="UIImage_HyperTrack_Swift_2096.g.cs" t="Include" />
+                <e p="UIView_HyperTrack_Swift_2111.g.cs" t="Include" />
+              </e>
+            </e>
+            <e p="LinkWithAttributes.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Structs.cs" t="Include" />
+        <e p="StructsAndEnums.cs" t="Include" />
+        <e p="Xamarin.Bindings.HyperTrack.iOS.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Xamarin.Bindings.HyperTrack.iOS.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2017.2/resharper-host/local/Transient/ReSharperHost/v10/SolutionCaches/_Xamarin.Bindings.HyperTrack.iOS.-1705766561.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/xcode_dervieddata/HyperTrackObjC-gvfplycstvapfefuppcwwneihqwe/Build/Products" t="Include">
+      <e p="Alamofire.framework" t="Include" />
+      <e p="CocoaLumberjack.framework" t="Include" />
+      <e p="Gzip.framework" t="Include" />
+      <e p="HyperTrack.framework" t="Include" />
+      <e p="SQLite.framework" t="Include" />
+    </e>
+  </component>
+</project>

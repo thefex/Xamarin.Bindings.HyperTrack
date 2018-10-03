@@ -1,40 +1,33 @@
-﻿<Properties StartupConfiguration="{91781666-89D8-49F3-AE1E-93B5D686B1AE}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestProject/obj/Release/lp/19/jl/res/layout/bottom_card_view_item.xml">
+﻿<Properties StartupConfiguration="{DE3B089A-550E-4372-B7CA-E4077A0D926B}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.iOS.HypertrackIOS__TestProject PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="nuspec/Xamarin.Bindings.HyperTrack.iOS.nuspec">
     <Files>
-      <File FileName="Xamarin.Bindings.SmartScheduler/Transforms/Metadata.xml" Line="1" Column="1" />
-      <File FileName="Xamarin.Bindings.HyperTrack/Transforms/Metadata.xml" Line="85" Column="261" />
-      <File FileName="Xamarin.Bindings.HyperTrack/obj/Debug/generated/src/Com.Hypertrack.Lib.Placeline.PlacelineSummaryAdapter.cs" Line="9" Column="23" />
-      <File FileName="Xamarin.Bindings.HyperTrack/obj/Debug/generated/src/Com.Hypertrack.Lib.Placeline.PlacelinePresenter.cs" Line="108" Column="250" />
-      <File FileName="Xamarin.Bindings.HyperTrack/obj/Debug/generated/src/Com.Hypertrack.Lib.Placeline.PlacelineAdapter.cs" Line="17" Column="10" />
-      <File FileName="Xamarin.Bindings.HyperTrack/obj/Debug/generated/src/Com.Hypertrack.Lib.Placeline.PlacelineActivitySummaryPresenter.cs" Line="108" Column="280" />
-      <File FileName="nuspec/Xamarin.Bindings.HyperTrack.nuspec" Line="31" Column="19" />
-      <File FileName="nuspec/Xamarin.Bindings.Hyperlog.nuspec" Line="1" Column="1" />
-      <File FileName="nuspec/Xamarin.Bindings.SmartScheduler.nuspec" Line="15" Column="80" />
-      <File FileName="Xamarin.Bindings.SmartScheduler/packages.config" Line="19" Column="66" />
-      <File FileName="nuspec/Xamarin.Bindings.Volley.nuspec" Line="1" Column="1" />
-      <File FileName="nuspec/Xamarin.Bindings.Sentry.nuspec" Line="1" Column="1" />
-      <File FileName="TestProject/obj/Release/lp/19/jl/res/layout/bottom_card_view_item.xml" Line="1" Column="1" />
+      <File FileName="iOS/Xamarin.Bindings.HyperTrack.iOS/ApiDefinitions.cs" Line="3765" Column="1" />
+      <File FileName="iOS/Xamarin.Bindings.HyperTrack.iOS/Structs.cs" Line="1" Column="1" />
+      <File FileName="iOS/Xamarin.Bindings.HyperTrack.iOS/StructsAndEnums.cs" Line="1" Column="1" />
+      <File FileName="nuspec/Xamarin.Bindings.Hyperlog.nuspec" Line="23" Column="19" />
+      <File FileName="nuspec/Xamarin.Bindings.HyperTrack.Droid.nuspec" Line="31" Column="24" />
+      <File FileName="nuspec/Xamarin.Bindings.HyperTrack.iOS.nuspec" Line="34" Column="18" />
+      <File FileName="nuspec/Xamarin.Bindings.Sentry.nuspec" Line="16" Column="19" />
+      <File FileName="nuspec/Xamarin.Bindings.SmartScheduler.nuspec" Line="21" Column="19" />
+      <File FileName="nuspec/Xamarin.Bindings.Volley.nuspec" Line="15" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Option id="ShowAllFiles" value="True" />
           <Node name="Xamarin.Bindings.HyperTrack" expanded="True">
-            <Node name="nuspec" expanded="True" />
-            <Node name="Xamarin.Bindings.Hyperlog" expanded="True" />
-            <Node name="Xamarin.Bindings.HyperTrack" expanded="True" selected="True">
-              <Node name="Additions" expanded="True" />
-              <Node name="bin" expanded="True" />
-              <Node name="Jars" expanded="True" />
-              <Node name="obj" expanded="True">
-                <Node name="Debug" expanded="True" />
-                <Node name="Release" expanded="True" />
+            <Node name="Droid" expanded="True">
+              <Node name="TestProject" expanded="True" />
+              <Node name="Xamarin.Bindings.HyperTrack" expanded="True">
+                <Node name="Jars" expanded="True" />
               </Node>
-              <Node name="Transforms" expanded="True" />
             </Node>
-            <Node name="Xamarin.Bindings.SmartScheduler" expanded="True">
-              <Node name="Jars" expanded="True" />
-              <Node name="Transforms" expanded="True" />
+            <Node name="iOS" expanded="True">
+              <Node name="HypertrackIOS_TestProject" expanded="True" />
+              <Node name="Xamarin.Bindings.HyperTrack.iOS" expanded="True" />
+            </Node>
+            <Node name="nuspec" expanded="True">
+              <Node name="/Users/przemekraciborski/git/Xamarin.Bindings.HyperTrack/Xamarin.Bindings.HyperTrack/nuspec/Xamarin.Bindings.HyperTrack.iOS.nuspec" selected="True" />
             </Node>
           </Node>
         </State>
@@ -42,13 +35,13 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.Droid.TestProject AndroidDesignerPreferredDevice="Nexus 4" />
+  <MonoDevelop.Ide.ItemProperties.Droid.Dependencies.Xamarin.Bindings.Hyperlog PreferredExecutionTarget="Android.00" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/przemekraciborski/git/Xamarin.Bindings.HyperTrack/Xamarin.Bindings.HyperTrack/TestProject/MainActivity.cs" relfile="TestProject/MainActivity.cs" line="41" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.TestProject PreferredExecutionTarget="Android.00" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Xamarin.Bindings.HyperTrack PreferredExecutionTarget="Android.00" />
 </Properties>

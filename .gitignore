@@ -1,5 +1,11 @@
 # Autosave files
+# XCODE Derived Data
+iOS/HyperTrack-ObjC-Build/DerivedData/
+
 *~
+.vs/
+# custom
+*.nupkg
 
 # build
 [Oo]bj/

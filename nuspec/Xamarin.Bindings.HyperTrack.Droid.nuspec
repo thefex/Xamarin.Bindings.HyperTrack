@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.Bindings.HyperTrack</id>
+    <version>0.7.39-preview1</version>
+    <title>Xamarin.Bindings.HyperTrack.Droid</title>
+    <authors>Przemyslaw Raciborski [thefex] (@ InsaneLab.com) for Bindings library</authors>
+    <projectUrl>https://github.com/thefex/Xamarin.Bindings.HyperTrack</projectUrl>
+    <description>
+		Xamarin bindings for Android HyperTrack.
+    </description>
+    <tags>xamarin android</tags>
+     <dependencies>
+      <group targetFramework="monoandroid">
+          <dependency id="Xamarin.Bindings.Volley" version="1.0.0"/>
+          <dependency id="Xamarin.Bindings.SmartScheduler" version="0.0.12"/>
+          <dependency id="Xamarin.Bindings.HyperLog" version="0.0.9"/>
+	      <dependency id="GoogleGson" version="2.8.0"/>
+          <dependency id="Xamarin.Android.Support.Design" version="27.0.2"/>
+          <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="27.0.2"/>
+          <dependency id="Xamarin.Android.Support.v7.CardView" version="27.0.2" />
+          <dependency id="Xamarin.GooglePlayServices.Gcm" version="70.1501.0-preview2" />
+          <dependency id="Xamarin.GooglePlayServices.Location" version="70.1501.0-preview2"/>
+          <dependency id="Xamarin.GooglePlayServices.Maps" version="70.1501.0-preview2"/>
+          <dependency id="Xamarin.GooglePlayServices.Places" version="70.1501.0-preview2"/>
+          <dependency id="Xamarin.Firebase.Messaging" version="70.1710.0-preview2"/>
+        </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Droid\Xamarin.Bindings.HyperTrack.Droid\bin\Release\Xamarin.Bindings.HyperTrack.*" target="lib\MonoAndroid" />
+  </files>
+</package>
+
+
+
+
+
+
+
+
+
+
+
+
+

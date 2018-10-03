@@ -1,0 +1,24 @@
+use_frameworks!
+
+target 'HyperTrackObjC' do
+   pod 'HyperTrack'
+
+    post_install do |installer|
+        installer.pods_project.targets.each do |target|
+            target.build_configurations.each do |config|
+                config.build_settings['SWIFT_VERSION'] = '3.2'
+                config.build_settings['ENABLE_BITCODE'] = 'NO'
+            end
+        end
+
+        Dir.glob('Pods/SQLite.swift/Sources/SQLite/**/*.swift').each { |path|
+            begin
+                text = File.read(path)
+                text = text.gsub(/import CSQLite/, 'import SQLite3')
+                File.open(path, 'w') { |file| file.puts text }
+                rescue Exception
+                puts "Unable to patch #{path}: #{$!}"
+            end
+        }
+    end
+end

@@ -13,7 +13,7 @@
   </metadata>
 
   <files>
-    <file src="..\Xamarin.Bindings.Sentry\bin\Release\Xamarin.Bindings.Sentry.*" target="lib\MonoAndroid" />
+    <file src="..\Droid\Dependencies\Xamarin.Bindings.Sentry\bin\Release\Xamarin.Bindings.Sentry.*" target="lib\MonoAndroid" />
   </files>
 </package>
 
